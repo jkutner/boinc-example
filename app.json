@@ -2,7 +2,7 @@
     "name": "Sample BONIC App",
     "description": "A barebones BOINC app",
     "repository": "https://github.com/jkutner/boinc-example",
-    "addons": [],
+    "addons": ["cleardb"],
     "buildpacks": [
       {
           "url": "https://github.com/jkutner/boinc-buildpack"
