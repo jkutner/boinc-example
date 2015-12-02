@@ -1,0 +1,14 @@
+{
+    "name": "Sample BONIC App",
+    "description": "A barebones BOINC app",
+    "repository": "https://github.com/jkutner/boinc-example",
+    "addons": [],
+    "buildpacks": [
+      {
+          "url": "https://github.com/jkutner/boinc-buildpack"
+      },
+      {
+          "url": "heroku/php"
+      }
+    ]
+}
