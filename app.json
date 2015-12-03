@@ -3,6 +3,14 @@
     "description": "A barebones BOINC app",
     "repository": "https://github.com/jkutner/boinc-example",
     "addons": ["cleardb"],
+    "env": {
+        "APP_NAME": {
+            "description": "The name of the Heroku app (must be the same as above)."
+        },
+        "APP_DESC": {
+            "description": "A short description of the BOINC app."
+        }
+    },
     "buildpacks": [
       {
           "url": "https://github.com/jkutner/boinc-buildpack"
