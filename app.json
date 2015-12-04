@@ -9,14 +9,22 @@
         },
         "APP_DESC": {
             "description": "A short description of the BOINC app."
+        },
+        "OPS_USERNAME": {
+            "description": "Username for the admin interface.",
+            "value": "admin"
+        },
+        "OPS_PASSWORD": {
+            "description": "Password for the admin interface.",
+            "generator": "secret"
         }
     },
     "buildpacks": [
       {
-          "url": "https://github.com/jkutner/boinc-buildpack"
+          "url": "heroku/php"
       },
       {
-          "url": "heroku/php"
+          "url": "https://github.com/jkutner/boinc-buildpack"
       }
     ]
 }
