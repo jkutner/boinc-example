@@ -1,7 +1,7 @@
 
 <job_desc>
     <task>
-        <application>/usr/bin/touch</application>
-        <command_line>out.txt</command_line>
+        <application>/bin/cp</application>
+        <command_line>job.xml out.txt</command_line>
     </task>
 </job_desc>
