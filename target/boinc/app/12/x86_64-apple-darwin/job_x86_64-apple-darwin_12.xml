@@ -1,7 +1,7 @@
 
 <job_desc>
     <task>
-        <application>/bin/cp</application>
-        <command_line>/Library/Application\ Support/BOINC\ Data/projects/young-escarpment-7875.herokuapp.com_boinc/in.txt out.txt</command_line>
+        <application>/usr/bin/touch</application>
+        <command_line>out.txt</command_line>
     </task>
 </job_desc>

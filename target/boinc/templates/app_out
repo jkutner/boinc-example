@@ -12,7 +12,8 @@
         <file_name><OUTFILE_0/></file_name>
         <open_name>out.txt</open_name>
         <copy_file/>
-        <no_delete/>
+        <no_delete>1</no_delete>
+        <optional>1</optional>
     </file_ref>
   </result>
 </output_template>
