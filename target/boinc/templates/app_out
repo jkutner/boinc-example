@@ -10,7 +10,7 @@
   <result>
     <file_ref>
         <file_name><OUTFILE_0/></file_name>
-        <open_name>out</open_name>
+        <open_name>out.txt</open_name>
         <copy_file/>
     </file_ref>
   </result>
