@@ -2,6 +2,6 @@
 <job_desc>
     <task>
         <application>/bin/cp</application>
-        <command_line>job.xml out.txt</command_line>
+        <command_line>in.txt out.txt</command_line>
     </task>
 </job_desc>
