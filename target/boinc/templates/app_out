@@ -12,8 +12,6 @@
         <file_name><OUTFILE_0/></file_name>
         <open_name>out.txt</open_name>
         <copy_file/>
-        <no_delete/>
     </file_ref>
-    <report_immediately/>
   </result>
 </output_template>
