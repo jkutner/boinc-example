@@ -1,0 +1,1 @@
+bin/create_work -appname young-escarpment-7875 -wu_name foo5 -wu_template templates/app_in -result_template templates/app_out in.txt
