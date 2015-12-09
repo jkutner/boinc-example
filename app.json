@@ -4,17 +4,17 @@
     "repository": "https://github.com/jkutner/boinc-example",
     "addons": ["cleardb"],
     "env": {
-        "APP_NAME": {
+        "HEROKU_APP_NAME": {
             "description": "The name of the Heroku app (must be the same as above)."
         },
-        "APP_DESC": {
+        "BOINC_APP_NAME": {
             "description": "A short description of the BOINC app."
         },
-        "OPS_USERNAME": {
+        "BOINC_OPS_USERNAME": {
             "description": "Username for the admin interface.",
             "value": "admin"
         },
-        "OPS_PASSWORD": {
+        "BOINC_OPS_PASSWORD": {
             "description": "Password for the admin interface.",
             "generator": "secret"
         }
